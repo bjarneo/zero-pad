@@ -10,6 +10,9 @@
     "format"
   ],
   "main": "index.js",
+  "engines" : { 
+    "node" : ">=4.0.0" 
+  },
   "scripts": {
     "prepublish": "npm test",
     "posttest": "npm run lint",
