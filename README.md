@@ -25,7 +25,7 @@ const arr = zeroPad([1, 10, 7]);
 console.log(arr); // [01, 10, 07]
 
 // Example with dates
-const date = new Date(2016, 10, 5); // new Date();
+const date = new Date(2016, 10, 5);
 const pad = zeroPad([
   date.getFullYear(),
   date.getMonth(),
