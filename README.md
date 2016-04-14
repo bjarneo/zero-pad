@@ -2,7 +2,7 @@ zero-pad
 ======
 ![Travis](https://travis-ci.org/bjarneo/zero-pad.svg?branch=master)
 
-Should prepend a 0 to whole numbers <= 9 and >= 0. Perfect use case for dates.
+Should prepend a 0 to whole numbers less than equal 9 and larger than equal 0. Perfect use case for dates.
 
 Installation
 ------
