@@ -1,40 +1,40 @@
 {
-  "name": "zero-pad",
-  "version": "1.0.2",
-  "description": "Should prepend a 0 to whole numbers less than equal 9 and larger than equal 0. Perfect use case for dates.",
-  "keywords": [
-    "zero",
-    "pad",
-    "zeroPad",
-    "date",
-    "format"
-  ],
-  "main": "index.js",
-  "engines" : { 
-    "node" : ">=4.0.0" 
-  },
-  "scripts": {
-    "prepublish": "npm test",
-    "posttest": "npm run lint",
-    "lint": "eslint .",
-    "test": "mocha -R min zero-pad.test.js"
-  },
-  "author": "Bjarne Oeverli",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bjarneo/zero-pad.git"
-  },
-  "homepage": "https://github.com/bjarneo/zero-pad",
-  "bugs": {
-    "url": "https://github.com/bjarneo/zero-pad/issues"
-  },
-  "devDependencies": {
-    "eslint": "2.7.0",
-    "eslint-config-vgno": "6.0.0",
-    "mocha": "2.4.5"
-  },
-  "dependencies": {
-    "is-whole-number": "1.0.0"
-  }
+    "name": "zero-pad",
+    "version": "1.1.0",
+    "description": "Should prepend a 0 to whole numbers less than equal 9 and larger than equal 0. Perfect use case for dates.",
+    "keywords": [
+        "zero",
+        "pad",
+        "zeroPad",
+        "date",
+        "format"
+    ],
+    "main": "index.js",
+    "engines": {
+        "node": ">=4.0.0"
+    },
+    "scripts": {
+        "prepublish": "npm test",
+        "posttest": "npm run lint",
+        "lint": "eslint .",
+        "test": "mocha -R min zero-pad.test.js"
+    },
+    "author": "Bjarne Oeverli",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bjarneo/zero-pad.git"
+    },
+    "homepage": "https://github.com/bjarneo/zero-pad",
+    "bugs": {
+        "url": "https://github.com/bjarneo/zero-pad/issues"
+    },
+    "devDependencies": {
+        "eslint": "2.7.0",
+        "eslint-config-vgno": "6.0.0",
+        "mocha": "2.4.5"
+    },
+    "dependencies": {
+        "is-whole-number": "1.0.0"
+    }
 }
